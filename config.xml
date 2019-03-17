@@ -12,6 +12,9 @@
 	<title> Tooth</title>
   </image>
   
-  
+  <video controls>  <source src="img/about/Insta Skating.mov" type="video/mp4">
+  <source src="img/about/Insta Skating.mov" type="video/ogg">
+Your browser does not support the video tag.
+</video>
 
 </juiceboxgallery>
