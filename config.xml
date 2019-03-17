@@ -3,38 +3,15 @@
 <juiceboxgallery
 
 >
-<!-- This is figure  skate-->
-  <image imageURL="img/figure1.png"
-	thumbURL="img/figure1.png"
-	linkURL="img/figure1.png"
+
+  <!-- This is figure  skate-->
+  <image imageURL="img/about/tooth_books.png"
+	thumbURL="img/tooth_books.png"
+	linkURL="img/tooth_books.png"
 	linkTarget="_blank">
-	<title> Larie Legs</title>
+	<title> Tooth</title>
   </image>
   
-
-<!-- This is speed skate -->
- <image imageURL="img/speed1.png"
-	thumbURL="img/speed1.png"
-	linkURL="img/speed1.png"
-	linkTarget="_blank">
-	<title> Skate</title>
-  </image>
-
-<!-- This is hockey skate -->
- <image imageURL="img/hockey2.png"
-	thumbURL="img/hockey2.png"
-	linkURL="img/hockey2.png"
-	linkTarget="_blank">
-	<title> </title>
-  </image>
-
-
-  <!-- This is starlight -->
- <image imageURL="img/starlight.jpg"
-	thumbURL="img/starlight.jpg"
-	linkURL="img/starlight.jpg"
-	linkTarget="_blank">
-	<title> </title>
-  </image>
+  
 
 </juiceboxgallery>
