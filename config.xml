@@ -14,7 +14,9 @@
   
   <video controls>  <source src="img/about/Insta Skating.mov" type="video/mp4">
   <source src="img/about/Insta Skating.mov" type="video/ogg">
-Your browser does not support the video tag.
+  		thumbURL="img/tooth_books.png"
+	linkURL="img/tooth_books.png"
+<title> Tooth</title>
 </video>
 
 </juiceboxgallery>
