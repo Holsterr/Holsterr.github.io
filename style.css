@@ -48,18 +48,18 @@ p {
             	
                 float:left;  
            padding-left:20px;
-                           width:50%; 
+                           width:80%; 
                 height:100px; 
             } 
             #middlebox{ 
                 float:left;  
            
-                width:20%; 
+                width:10%; 
                 height:280px; 
             } 
             #rightbox{ 
                 float:right; 
             
-                width:2o%; 
+                width:10%; 
                 height:280px; 
             } 
