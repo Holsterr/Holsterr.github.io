@@ -11,7 +11,7 @@ h1 {
   text-align: center;
   font-size: 140px;
   font-weight: 140;
-  font-family: verdana;
+  font-family: arial;
 padding-top: 50px;
 padding-bottom: -100px;
 }
@@ -37,7 +37,7 @@ div-test{
 
 
 p {
-  font-family: verdana;
+  font-family: arial;
   font-size: 20px;
 }
 
