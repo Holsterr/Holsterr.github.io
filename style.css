@@ -49,17 +49,17 @@ p {
                 float:left;  
            padding-left:20px;
                            width:50%; 
-                height:60px; 
+                height:50px; 
             } 
             #middlebox{ 
                 float:left;  
            
                 width:10%; 
-                height:60px; 
+                height:50px; 
             } 
             #rightbox{ 
                 float:right; 
             
                 width:10%; 
-                height:60px; 
+                height:50px; 
             } 
