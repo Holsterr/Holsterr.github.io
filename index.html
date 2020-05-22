@@ -23,7 +23,7 @@ function startTime() {
   var s = today.getSeconds();
   m = checkTime(m);
   s = checkTime(s);
-  document.getElementById('txt').innerHTML = "<h1>" + h + ":" + m + ":" + s + "</h1>";
+  document.getElementById('txt').innerHTML = "<h1>" + h + ":" + m + "</h1>";
   var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
