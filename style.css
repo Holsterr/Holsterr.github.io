@@ -63,3 +63,8 @@ p {
                 width:10%; 
                 height:20px; 
             } 
+
+
+          body {
+  overflow: hidden; /* Hide scrollbars */
+}
