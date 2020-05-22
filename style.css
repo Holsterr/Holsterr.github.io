@@ -26,6 +26,14 @@ h2 {
   top: -50px;
 }
 
+h3 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  font-family: arial;
+
+}
+
 
 div-test{
   height: 50px;
