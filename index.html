@@ -1,151 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
+
+<link rel="stylesheet"  href="style.css">
+
+
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Toothiana</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="css/agency.min.css" rel="stylesheet">
-
+    <title>Greetings</title> 
 </head>
 
-<body id="page-top">
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-    <img src="img/about/tooth_logo.png" alt="Toothiana Logo">
-    
 
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="photo.html">Photos</a>
-          </li>
-             <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="video.html">Videos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="character.html">Character</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="events.html">Upcoming Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="previous_events.html">Previous Events</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="team.html">About Us</a>
-          </li>
-           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="make.html">Make</a>
-      
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<body>
+   
+<div>
 
-  <!-- Header -->
-  <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Welcome!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="character.html">Tell Me More</a>
-      </div>
-    </div>
-  </header>
+<script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML = "<h1>" + h + ":" + m + ":" + s + "</h1>";
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
 
- 
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+</div>
+
+<div style = "position:relative; top:-84px;">
+ <label id="lblGreetings"></label>
+
+
+
+
+<script>
+
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs >=05 && hrs <12)
+        greet = 'Good Morning';
+    else if (hrs >= 12 && hrs <= 17)
+        greet = 'Good Afternoon';
+    else if (hrs >= 17 && hrs <= 24)
+        greet = 'Good Evening';
+    else if (hrs >= 24 && hrs <= 05)
+        greet = 'Go to sleep';
+
+
+
+    document.getElementById('lblGreetings').innerHTML = "<h2>" + greet + "," + " Hollie </h2>";
+
+
+
+
+</script> 
+</div>
+
+
+
+
+
+    <div id = "boxes"> 
   
+            
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-         
-
-<img src="img/about/rise_logo.png" alt="Rise of the Guardians Logo">
-<br>
-<br>
-
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="https://twitter.com/guardiantooth">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/toothguardian">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/toothguardian/">
-                <i class="fab fa-instagram"></i>
-                
-              </a>
-            </li>
-          </ul>
-          <br>
-                <br>
-        </div>
+            <div id = "leftbox" style = "position:relative; top:-100px;"> 
+              
+<a class="weatherwidget-io" href="https://forecast7.com/en/50d91n1d40/southampton/" data-label_1="SOUTHAMPTON" data-label_2="WEATHER" data-font="Open Sans" data-icons="Climacons Animated" data-days="5" data-basecolor="rgba(39, 39, 39, 0.49)" data-textcolor="#ffffff" data-highcolor="#f6d85c" data-lowcolor="#a2d9f7" data-suncolor="#f6d85c" data-mooncolor="#ffffff" data-cloudcolor="#ffffff" data-cloudfill="#ffffff" data-raincolor="#a2d9f7" data-snowcolor="#ffffff" >SOUTHAMPTON WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
 
 
 
 
-        <div class="col-md-4">
-          
-<img src="img/about/dbs.png" alt="DBS Checked">
-<br>
-<br>
-        </div>
-      </div>
-    </div>
-  </footer>
 
- 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            </div>  
+              
+            <div id = "middlebox"> 
+              
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+            </div> 
+              
+            <div id = "rightbox"> 
+             
 
-  <!-- Custom scripts for this template -->
-  <script src="js/agency.min.js"></script>
+
+            </div> 
+        </div> 
+
+
+
+
 
 </body>
+
 
 </html>
