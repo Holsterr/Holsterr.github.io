@@ -54,13 +54,13 @@ p {
             #middlebox{ 
                 float:left;  
            
-                width:10%; 
+                width:30%; 
                 height:20px; 
             } 
             #rightbox{ 
                 float:right; 
             
-                width:10%; 
+                width:0%; 
                 height:20px; 
             } 
 
