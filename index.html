@@ -12,7 +12,6 @@
 
 <head>
     <title>Pi Widgets</title> 
-  <meta http-equiv="refresh" content="2640">
 
 
 </head>
@@ -48,9 +47,75 @@ function refreshAt(hours, minutes, seconds) {
 
 refreshAt(5,0,0); //Will refresh the page at 05:00
 
+
+refreshAt(6,0,0); //Will refresh the page at 06:00
+
+
+refreshAt(7,0,0); //Will refresh the page at 07:00
+
+refreshAt(8,0,0); //Will refresh the page at 08:00
+
+refreshAt(8,30,0); //Will refresh the page at 08:30
+
+refreshAt((9,0,0); //Will refresh the page at 09:00
+
+refreshAt((9,30,0); //Will refresh the page at 09:30
+
+refreshAt((10,0,0); //Will refresh the page at 10:00
+
+refreshAt((10,30,0); //Will refresh the page at 10:30
+
+refreshAt((11,0,0); //Will refresh the page at 11:00
+
+refreshAt((11,30,0); //Will refresh the page at 11:30
+
 refreshAt(12,0,0); //Will refresh the page at 12:00
 
+refreshAt(12,30,0); //Will refresh the page at 12:30
+
+refreshAt(13,0,0); //Will refresh the page at 13:00
+
+refreshAt(13,30,0); //Will refresh the page at 13:30
+
+refreshAt(14,0,0); //Will refresh the page at 14:00
+
+refreshAt(14,30,0); //Will refresh the page at 14:30
+
+refreshAt(15,0,0); //Will refresh the page at 15:00
+
+refreshAt(15,30,0); //Will refresh the page at 15:30
+
+refreshAt(16,0,0); //Will refresh the page at 16:00
+
+refreshAt(16,30,0); //Will refresh the page at 16:30
+
+refreshAt(17,0,0); //Will refresh the page at 17:00
+
+refreshAt(17,30,0); //Will refresh the page at 17:30
+
 refreshAt(18,0,0); //Will refresh the page at 18:00
+
+refreshAt(18,30,0); //Will refresh the page at 18:30
+
+refreshAt(19,0,0); //Will refresh the page at 19:00
+
+refreshAt(19,30,0); //Will refresh the page at 19:30
+
+refreshAt(20,0,0); //Will refresh the page at 20:00
+
+refreshAt(20,30,0); //Will refresh the page at 20:30
+
+refreshAt(21,0,0); //Will refresh the page at 21:00
+
+refreshAt(21,30,0); //Will refresh the page at 21:30
+
+refreshAt(22,0,0); //Will refresh the page at 22:00
+
+refreshAt(22,30,0); //Will refresh the page at 22:30
+
+refreshAt(23,0,0); //Will refresh the page at 23:00
+
+refreshAt(23,30,0); //Will refresh the page at 23:30
 
 refreshAt(23,59,0); //Will refresh the page at 23:59
 
@@ -133,8 +198,36 @@ function checkTime(i) {
 
             </div>  
               
+
+
+
+
             <div id = "middlebox" style = "position:relative; top:-150px; left:14px;"> 
-          <img src="tester.png" />
+
+<script>
+
+ var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs >=06 && hrs <10)
+        document.write("<img src='tester.png'>")
+    else if (hrs >= 10 && hrs < 14)
+            document.write("<img src='inspo3.png'>")
+           else if (hrs >= 14 && hrs < 18)
+            document.write("<img src='inspo2.png'>")
+          else if (hrs >= 18 && hrs < 23)
+            document.write("<img src='inspo1.png'>")
+    else
+           document.write("<img src='sleep.png'>")
+
+
+
+
+
+</script> 
+
 
             </div> 
               
