@@ -50,7 +50,10 @@ p {
 }
 
 
-
+currentTemp ng-binding {
+  font-size: 53px;
+  
+}
 
             #leftbox { 
             	
